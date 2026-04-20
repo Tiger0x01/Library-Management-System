@@ -1,4 +1,4 @@
-# 📚 Modern Hybrid Library Management System (LMS)
+# 📚 Library Management System (LMS)
 
 <p align="center">
   <b>A professional, hybrid Library Management System built with Native PHP, designed to manage both physical book circulation and digital e-book sales.</b>
