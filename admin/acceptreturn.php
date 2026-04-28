@@ -10,9 +10,8 @@ if (!isset($_SESSION['RollNo'])) {
 
 $bookid = $conn->real_escape_string($_GET['id1']);
 $rollno = $conn->real_escape_string($_GET['id2']);
-$dues   = $conn->real_escape_string($_GET['id3']);
 
-$sql1 = "UPDATE LMS.record SET Date_of_Return = CURDATE(), Dues = '$dues' 
+$sql1 = "UPDATE LMS.record SET Date_of_Return = CURDATE() 
          WHERE BookId = '$bookid' AND RollNo = '$rollno' AND Date_of_Return IS NULL";
 
 if ($conn->query($sql1) === TRUE) {

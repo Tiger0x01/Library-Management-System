@@ -205,7 +205,7 @@ if (!isset($_SESSION['RollNo'])) {
             </div>
             
             <div class="header-center">
-                <img src="assets/logo.png" class="mu-logo" alt="MU Logo">
+                <img src="../assets/logo.png" class="mu-logo" alt="MU Logo">
             </div>
 
             <div class="header-right">
